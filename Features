@@ -1,1 +1,21 @@
+Version Control Features
+  These version control features contribute to better code management, collaboration, and overall software development efficiency
+    •	Git Documentation - Version Control Basics
 
+1.Tracking changes: 
+
+    a/Revision history: Version control systems provides a detailed record of all the changes made to the code base, including who made the changes, when they were made, and what specific changes were implemented. 
+  
+    b/Branching and Merging: Using version control systems, developers can create branches, which are separated copies of the code base, where they can work on it independently. Once changes are tested and approved, they can be merged back into the main code base.
+      
+    c/Rollback and Retrieval: Developers can also roll back to previous versions of the code base and retrieve them if needed. This feature is useful in case of bugs or issues in the latest version, it allows rapid recovery to stable conditions. 
+
+
+2.Collaboration:
+
+    a/Conflict Resolution: When multiple developers are working on the same code base, conflicts may happen when trying to merge their changes. Version control systems provide tools to help resolve these conflicts, making sure that changes are properly integrated.
+     
+    b/Centralized and decentralized: In a centralized VCS like “Subversion” there is a single central repository where the code base is stored. Developers make changes locally, then merge them back to the central repository. This feature ensures that everyone is working with the latest version of the code base. In a decentralized VCS like “Git”, each developer has their own local repository. They can make changes and commit them locally without needing a connection to a central repository. This feature allows greater flexibility and offline work. Changes can later be synchronized and merged with other repositories.
+     
+    c/Remote storage: Repositories are mainly stored on a central server, ensuring everyone has access to the latest versions and preventing accidental data loss.
+     
