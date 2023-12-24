@@ -1,1 +1,3 @@
-
+  Local Version Control Systems
+Local Version Control System is a local database located in your own computer, it operates without the need of a central server. Therefore, the changes made are not automatically shared with other members, which makes collaboration with other team members extremely challenging. 
+Local Version Control Systems are designed for individuaul use; the changes are stored and tracked locally, thereby, the restore process is nearly impossible: if anything happened to a version of your project, all the changes that have occured after that version would be lost. And if something hqppened to the local database, all the patches would be lost. [https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/] 
