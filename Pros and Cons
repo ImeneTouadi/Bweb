@@ -1,1 +1,30 @@
+ADVANTEGES:
+1. it’s a strong system that we can use it to save the version .
+2.we can create files and work in the same  project without conflict that’s mean collaboration.
+3.it’s users to revert to previous versions allow, and track  modification.
+4. provides a save environment to make modification without change the main project .
+5.the major problem people have is that they need to collaborate with developers on other computer .to deal with this problem ,centralized version control system(cvcs) were developed 
+These systems,such as (cvs) subversion ,and perforce ,set up a central server that contains all files under version control and clients that can pull files from this central repository for many years this was the standard for version management (see this diagrame) (page 12)
+    
+6.clients no longer just check out the latest version of a file ,but they completely duplicate the repository so if the server disappears and if the systems collaborated via this server.any repository from one of the clients can be copied to the server to restore it .
+7. Git and Github and other systems has a simple conception that any one can use it .
+8.the  ability to effectively manage large project 
+9.backup and recovery :servers as a backup mechanism,safeguarding againts accidental data loss by storing multiple iterations of files.  
+
+DESADVANTEGES:
+How ever this system also has many flaws  :
+1.the single point of failure that the centralized server represents . if that server is down for an hour , then during that hour , no clients can collaborate or save changes from their work .
+If the central server’s hard drive corrupts,and there was no backup , than you lose absolutely everything in the history of a project aside from local backups that peaple  might have made on their local machines.
+2.learn about version control systems like Git can be hard and requires time especially for beginners.
+3.storage size :storing every version of files can consume considerable disk space ,especially for larger projects .
+4.problems between users when working in collaboration .
+
+
+
+Despite these cons ,the advanteges of version control outweigh these negative points.
+
+
+
+
+
 
