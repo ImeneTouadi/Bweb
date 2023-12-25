@@ -10,6 +10,7 @@ These systems,such as (cvs) subversion ,and perforce ,set up a central server th
 7. Git and Github and other systems has a simple conception that any one can use it .
 8.the  ability to effectively manage large project 
 9.backup and recovery :servers as a backup mechanism,safeguarding againts accidental data loss by storing multiple iterations of files.  
+10.facilitate coordination and sharing between users.
 
 DESADVANTEGES:
 How ever this system also has many flaws  :
