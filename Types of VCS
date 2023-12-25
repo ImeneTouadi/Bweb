@@ -1,6 +1,6 @@
   Local Version Control Systems
 Local Version Control System is a local database located in your own computer, it operates without the need of a central server. Therefore, the changes made are not automatically shared with other members, which makes collaboration with other team members extremely challenging. 
-Local Version Control Systemsm, like RCS (Revision Cotrol System) are designed for individuaul use; the changes are stored and tracked locally, preventing the restore process: if anything happened to a version of your project, all the changes that have occured after that version would be lost. And if something hqppened to the local database, all the patches would be lost. [https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/] 
+Local Version Control Systemsm, like RCS (Revision Cotrol System) are designed for individuaul use; the changes are stored and tracked locally, preventing the restore process: if anything happened to a version of your project, all the changes that have occured after that version would be lost. And if something happened to the local database, all the patches would be lost.  
 
   Centralized Version Control Systems
 To fulfill the need of collaboration, centralized version control systems (CVCSs) such as CVS (Concurrent Versions System), SVN (Subversion) and Perforce, were implemented.
@@ -8,7 +8,8 @@ A Centralized version control system stores all the versions of the files in a s
 However, similarly to LVCSs, if the central server gets corrupted, then you’ll lose the entire history of the project, except any backup you kept on your own machine. whenever you have the entire history of the project in a single place, you risk losing everything. [CHACON, Scott et STRAUB, Ben. Pro git, page 12. Springer Nature, 2014.
 
   Distributed Version Control Systems
-To (remedy to / deal with) the possible loss of information, Distributed version control systems (DVCSs) have been developed. 
+To deal with the possible loss of information, Distributed version control systems (DVCSs) have been developed. 
 Distributed version control systems including Git and Mercurial, allows multiple developers to work on a project simultaneously, without necessarily being connected to a central  server, since every collaborator owns a copy of the whole project, with the complete history of modifications, in their local repository. This means that even if the central repository becomes corrupted, any of the collaborators can send a copy from his repository to other local servers, or back up to the central server.
 For collaborative software development, DVCSs provides a more organized, creative  and flexible environment. 
-Currently, Git is the most popular version control system; it’s a DVCS that has gained widespread adoption due to its speed, efficiency and branching and merging capabilities.
+
+Currently, Git is the most popular version control system in the world; it’s a free and open source DVCS that has gained widespread adoption, since its birth in 2005, due to its speed, efficiency and branching and merging capabilities. Git was initially designed and developed by Linus Torvalds for the development of Linux kernel.
