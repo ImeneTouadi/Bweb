@@ -8,17 +8,17 @@ These systems,such as (cvs) subversion ,and perforce ,set up a central server th
     
 6.clients no longer just check out the latest version of a file ,but they completely duplicate the repository so if the server disappears and if the systems collaborated via this server.any repository from one of the clients can be copied to the server to restore it .
 7. Git and Github and other systems has a simple conception that any one can use it .
-8.the  ability to effectively manage large project 
+8.the  ability to effectively manage large project. 
 9.backup and recovery :servers as a backup mechanism,safeguarding againts accidental data loss by storing multiple iterations of files.  
 10.facilitate coordination and sharing between users.
 
 DESADVANTEGES:
 How ever this system also has many flaws  :
-1.the single point of failure that the centralized server represents . if that server is down for an hour , then during that hour , no clients can collaborate or save changes from their work .
+1.the single point of failure that if the server is down for an hour , then during that hour , no clients can collaborate or save changes from their work .
 If the central server’s hard drive corrupts,and there was no backup , than you lose absolutely everything in the history of a project aside from local backups that peaple  might have made on their local machines.
-2.learn about version control systems like Git can be hard and requires time especially for beginners.
-3.storage size :storing every version of files can consume considerable disk space ,especially for larger projects .
-4.problems between users when working in collaboration .
+2.learn about version control systems like Git can be hard and waste a large  time especially for beginners.
+3.storage size :storing every version of files can consume  disk space ,especially for larger projects .
+4.problems can be  between users when working in collaboration .
 
 
 
