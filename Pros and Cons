@@ -1,7 +1,7 @@
 ADVANTEGES:
 1. it’s a strong system that we can use it to save the version .
 2.we can create files and work in the same  project without conflict that’s mean collaboration.
-3.it’s users to revert to previous versions allow, and track  modification.
+3.it’s allow users to revert to previous versions , and track  modification.
 4. provides a save environment to make modification without change the main project .
 5.the major problem people have is that they need to collaborate with developers on other computer .to deal with this problem ,centralized version control system(cvcs) were developed 
 These systems,such as (cvs) subversion ,and perforce ,set up a central server that contains all files under version control and clients that can pull files from this central repository for many years this was the standard for version management (see this diagrame) (page 12)
